@@ -202,6 +202,8 @@ int main() {
 | P4     | 1          | 4         |
 | P5     | 5          | 2         |
 
+**Gambarkan 4 diagram Chart yang mengilustrasikan eksekusi dari proses-proses tersebut
+menggunakan FCFS, SJF, prioritas nonpreemptive dan round robin.**
 ---
 
 ### FCFS (First Come First Serve)
