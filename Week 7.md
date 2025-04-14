@@ -60,7 +60,7 @@
 ---
 
 ### b. Penerapan Thread di Linux (`thrd-posix.c`)
-
+![Image](https://github.com/user-attachments/assets/190a4b32-a4de-4418-ba15-341991d32b9d)
 **Langkah-langkah:**
 
 1. Cek `gcc`:
@@ -85,7 +85,7 @@
 ---
 
 ### c. Penerapan thread di Windows (`thrd-win32.c`)
-
+![Image](https://github.com/user-attachments/assets/3d57eee4-3c00-47b7-ac9e-4bbdda7a638e)
 **Langkah-langkah:**
 
 1. Buat file `thrd-win32.c` dan salin kode dari:
