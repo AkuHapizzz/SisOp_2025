@@ -26,7 +26,7 @@
 ## 2. Kerjakan Programming Exercise
 
 ### a. Penerapan thread pada contoh di linux `SumTask.java`
-
+![Image](https://github.com/user-attachments/assets/3a13b931-ecd5-4386-b5f5-6d7912e81921)
 **Langkah-langkah:**
 
 1. Cek versi Java:
