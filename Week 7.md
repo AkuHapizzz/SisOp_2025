@@ -18,7 +18,8 @@
 **Multithread**, di sisi lain, adalah model di mana sebuah proses dapat memiliki beberapa thread yang berjalan secara bersamaan. Setiap thread dapat menjalankan bagian berbeda dari kode secara paralel. Ini meningkatkan efisiensi, terutama pada sistem multi-core, karena beberapa thread dapat berjalan secara simultan. Multithreading umum digunakan dalam aplikasi modern seperti web browser, game, dan server, di mana responsivitas dan efisiensi sangat penting. Namun, pengelolaan thread yang kompleks dapat menyebabkan masalah seperti *deadlock* dan *race conditions* jika tidak ditangani dengan hati-hati.
 
 **Gambar tentang konsep single thread dan multithread:** 
-*![Teks Alternatif](path/gambarsinglethreaddanmultithread.jpg)*
+![Uploading image.png…]()
+
 
 ---
 
