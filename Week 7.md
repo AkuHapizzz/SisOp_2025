@@ -108,19 +108,29 @@
 
 ### a. SumTask.java (Java Multithreading)
 
-Program ini adalah implementasi sederhana multithreading menggunakan bahasa Java. Program melakukan penjumlahan angka dalam array yang dibagi ke dua thread. Ini mempercepat eksekusi dan menunjukkan pembagian kerja serta paralelisme.
+Pada bagian ini, kita diminta mengerjakan contoh SumTask.java, yang merupakan penerapan multithreading di bahasa pemrograman Java. Java memiliki dukungan multithreading yang sangat baik melalui kelas Thread dan antarmuka Runnable. Dalam contoh ini, program melakukan penjumlahan angka dalam sebuah array, lalu membaginya menjadi dua bagian yang dihitung secara paralel oleh dua thread.
 
-Java sangat mendukung multithreading melalui `Thread` dan `Runnable`, dan bisa dijalankan di berbagai sistem operasi.
+Dengan membuat dua thread yang menghitung bagian array masing-masing, kita bisa menyelesaikan tugas lebih cepat dibanding menghitung secara satu per satu. Proses ini menggambarkan konsep pembagian kerja (task division) dan paralelisme, yang sangat penting dalam pemrograman berbasis thread.
+
+Program ini dikompilasi menggunakan javac dan dijalankan dengan java di terminal Linux, menunjukkan bagaimana Java mendukung platform-independen namun tetap memanfaatkan kekuatan multitasking sistem operasi.
 
 ### b. Thread di Linux (`thrd-posix.c`)
 
-Menggunakan pustaka `pthread`, program membuat dua thread yang menjalankan fungsi sederhana. Kompilasi dilakukan dengan `gcc` dan flag `-pthread`.
+Bagian kedua menugaskan kita untuk memahami penerapan thread menggunakan bahasa C di sistem operasi Linux. Di sini, kita menggunakan pustaka pthread (POSIX thread), yang merupakan standar thread di sistem Unix-like.
 
-Menunjukkan bagaimana thread dikelola secara eksplisit di sistem operasi berbasis Unix.
+Dalam program thrd-posix.c, dua thread dibuat menggunakan fungsi pthread_create. Kedua thread ini kemudian menjalankan fungsi yang mencetak angka. Ini adalah cara sederhana namun efektif untuk memahami bagaimana Linux mengelola thread di tingkat sistem rendah (low-level), di mana kita harus secara eksplisit membuat dan menggabungkan thread menggunakan pthread_join.
+
+Program ini dikompilasi menggunakan gcc dengan flag -pthread untuk menyertakan dukungan pustaka thread. Ini menunjukkan bagaimana sistem operasi Linux menyediakan fleksibilitas penuh kepada pengembang untuk mengelola multitasking, terutama dalam aplikasi sistem dan server.
+
 
 ### c. Thread di Windows (`thrd-win32.c`)
 
-Menggunakan API Windows seperti `CreateThread` dan `WaitForSingleObject`. Konsepnya sama dengan Linux, tapi sintaks dan pendekatannya berbeda.
+Bagian ketiga menjelaskan bagaimana implementasi thread dilakukan di sistem operasi Windows menggunakan bahasa C. Berbeda dengan Linux, Windows tidak menggunakan pustaka POSIX, melainkan menyediakan fungsi API sendiri seperti CreateThread dan WaitForSingleObject.
+
+Contoh thrd-win32.c membuat dua thread yang menjalankan fungsi pencetak angka. Di sini, konsep multitasking sama diterapkan, namun dengan gaya dan sintaks yang berbeda karena bergantung pada Windows API.
+
+Untuk menjalankan program ini, kita menggunakan kompiler seperti MinGW atau Visual Studio. Ini menunjukkan bahwa implementasi thread sangat bergantung pada sistem operasi, meskipun konsep dasarnya tetap sama: menjalankan beberapa bagian program secara bersamaan.
+
 
 ---
 
@@ -146,7 +156,7 @@ Referensi video: [Intel Processor Evolution - YouTube](https://www.youtube.com/w
 
 Rumus:
 ```
-Speedup = 1 / (S + (1 - S)/N)
+Speedup = 1 / S + (1 - S) / N
 S = 0.4 (serial part)
 ```
 
