@@ -1,11 +1,11 @@
 
-# Tugas 7 Sistem Operasi
+# Tugas 7 Sistem Operasi  
 
-**Nama**: Ahnaf Hafizh Putra Efendi  
-**NRP**: 3124500033  
-**Dosen Pengajar**: Dr Ferry Astika Saputra ST, M.Sc  
+**Nama:** Ahnaf Hafizh Putra Efendi  
+**NRP:** 3124500033  
+**Dosen Pengajar:** Dr Ferry Astika Saputra ST, M.Sc  
 
-## PROGRAM STUDI D3 TEKNIK INFORMATIKA  
+**PROGRAM STUDI D3 TEKNIK INFORMATIKA**  
 **POLITEKNIK ELEKTRONIKA NEGERI SURABAYA (PENS)**  
 **TAHUN 2024**
 
