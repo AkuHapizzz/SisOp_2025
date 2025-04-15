@@ -106,7 +106,7 @@
 
 ## Penjelasan dalam Bentuk Esai
 
-### a. SumTask.java (Java Multithreading)
+### a. Java Multithreading (`SumTask.java`)
 
 Pada bagian ini, kita diminta mengerjakan contoh SumTask.java, yang merupakan penerapan multithreading di bahasa pemrograman Java. Java memiliki dukungan multithreading yang sangat baik melalui kelas Thread dan antarmuka Runnable. Dalam contoh ini, program melakukan penjumlahan angka dalam sebuah array, lalu membaginya menjadi dua bagian yang dihitung secara paralel oleh dua thread.
 
