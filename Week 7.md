@@ -145,14 +145,14 @@ Referensi video: [Intel Processor Evolution - YouTube](https://www.youtube.com/w
 
 ## 4. Mengerjakan Chapter 4 Exercise
 
-### 1. Three Programming Examples where Multithreading is Beneficial
+### 4.1	Provide three programming examples in which multithreading provides better performance than a single-threaded solution.
 
 1.	**Photo Thumbnail Generation:** Sebuah aplikasi yang membuat thumbnail dari koleksi gambar dapat menggunakan thread terpisah untuk setiap gambar, sehingga proses pembuatan thumbnail dapat dilakukan secara paralel.
 2.	**Web Browser:** Browser web dapat menggunakan satu thread untuk menampilkan gambar atau teks sementara thread lain mengambil data dari jaringan, meningkatkan responsivitas pengguna.
 3.	**Word Processor:** Sebuah pengolah kata dapat menggunakan thread terpisah untuk menampilkan grafis, merespons ketukan tombol, dan memeriksa ejaan serta tata bahasa di latar belakang.
 
 
-### 2. Amdahl’s Law Speedup Calculation
+### 4.2	Using Amdahl’s Law, calculate the speedup gain of an application that has a 60 percent parallel component for (a) two processing cores and (b) four processing cores.
 
 Rumus:
 ```
@@ -163,11 +163,11 @@ S = 0.4 (serial part)
 - **2 Cores**: `Speedup = 1 / (0.4 + 0.6/2) = ~1.43`
 - **4 Cores**: `Speedup = 1 / (0.4 + 0.6/4) = ~1.82`
 
-### 3. Task or Data Parallelism?
+### 4.3	Does the multithreaded web server described in Section 4.1 exhibit task or data parallelism?
 
  *Multithreaded web server menunjukkan task parallelism karena setiap thread menangani tugas yang berbeda (misalnya, melayani permintaan klien yang berbeda) secara bersamaan.*.
 
-### 4. User-level Threads vs Kernel-level Threads
+### 4.4	What are two differences between user-level threads and kernel-level threads? Under what circumstances is one type better than the other?
 
 | Aspek | User-level Threads | Kernel-level Threads |
 |-------|--------------------|----------------------|
@@ -179,7 +179,7 @@ S = 0.4 (serial part)
 - **User-level**: efisien untuk operasi ringan.
 - **Kernel-level**: cocok untuk paralelisme nyata di multi-core.
 
-### 5. Context Switch oleh Kernel
+### 4.5	Describe the actions taken by a kernel to context-switch between kernel-level threads.
 
 1.	**Simpan Konteks:** Simpan state thread saat ini (register, PC, stack) ke dalam struktur data thread.
 2.	**Pilih Thread Baru:** Jadwalkan thread berikutnya yang akan dijalankan.
