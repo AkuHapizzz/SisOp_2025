@@ -1,5 +1,5 @@
 
-# Tugas 7 Sistem Operasi  
+# Tugas 8 Sistem Operasi  
 
 **Nama:** Ahnaf Hafizh Putra Efendi  
 **NRP:** 3124500033  
