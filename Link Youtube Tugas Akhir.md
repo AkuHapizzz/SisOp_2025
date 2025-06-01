@@ -1,5 +1,4 @@
-# LAPORAN SISTEM OPERASI  
-## SRTF (Shortest Remaining Time First)
+# Tugas Akhir Sistem Operasi
 
 ### Nama Anggota Kelompok:
 - Farid Yanuar Hidayat (3124500032)  
@@ -9,9 +8,10 @@
 ### Dosen Pengajar:
 Dr. Ferry Astika Saputra, ST, M.Sc
 
-> PROGRAM STUDI D3 TEKNIK INFORMATIKA  
-> POLITEKNIK ELEKTRONIKA NEGERI SURABAYA (PENS)  
-> TAHUN 2024
+ PROGRAM STUDI D3 TEKNIK INFORMATIKA  
+ POLITEKNIK ELEKTRONIKA NEGERI SURABAYA (PENS)  
+ TAHUN 2024
 
+Link Pengumpulan Tugas UAS
 
 https://youtu.be/wA1H0MFA4sg?feature=shared
